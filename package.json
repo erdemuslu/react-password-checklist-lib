@@ -1,8 +1,8 @@
 {
   "name": "react-password-checklist-lib",
-  "version": "1.0.3",
-  "main": "./build/index.js",
-  "module": "./build/index.es.js",
+  "version": "1.0.4",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
   "author": "Erdem Uslu",
   "license": "MIT",
   "repository": {
