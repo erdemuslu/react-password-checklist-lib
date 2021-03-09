@@ -1,6 +1,6 @@
 {
   "name": "react-password-checklist-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./build/index.js",
   "module": "./build/index.es.js",
   "author": "Erdem Uslu",
@@ -52,5 +52,8 @@
     "build": "rollup -c",
     "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "jest"
-  }
+  },
+  "files": [
+    "build"
+  ]
 }
