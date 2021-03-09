@@ -1,0 +1,33 @@
+.password-checklist {
+  --password-checklist-item-success: #333333;
+  --password-checklist-item-success-color: #50ffb1;
+  --password-checklist-item-error-color: #e54b4b;
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.password-checklist__item {
+  display: flex;
+  align-items: center;
+  color: var(--password-checklist-item-color);
+}
+
+.password-checklist__item.is-success {
+  color: var(--password-checklist-item-success-color);
+}
+
+.password-checklist__item.is-wrong {
+  color: var(--password-checklist-item-error-color);
+}
+
+.password-checklist__item span {
+  display: inline-flex;
+  margin-right: 8px;
+}
+
+.password-checklist__item p {
+  padding: 0;
+  margin: 0;
+}
